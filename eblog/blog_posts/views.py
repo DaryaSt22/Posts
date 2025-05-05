@@ -4,7 +4,7 @@ from .models import Post
 
 def posts_list(request):
     posts = Post.objects.all().order_by('date')
-    return render(request, 'blog_posts/posts_list.html', { 'posts': posts})
+    return render(request, 'blog_posts/posts_list.html', {'posts': posts})
 
 
 def post_page(request, slug):
