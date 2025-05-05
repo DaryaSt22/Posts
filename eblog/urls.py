@@ -23,7 +23,7 @@ from rest_framework_simplejwt.views import (
     # TokenVerifyView
 )
 
-# from users.views import RegisterView
+from users.views import RegisterView
 
 
 
